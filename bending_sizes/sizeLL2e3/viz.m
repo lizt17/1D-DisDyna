@@ -7,7 +7,7 @@
 %   color   = dislocation ID
 %   neutral axis marked by a vertical dashed line
 
-clear; clc;
+clear; clc; close all
 
 useAutoFind = true;
 mainCsv = './output/outputKD_tau500.csv';

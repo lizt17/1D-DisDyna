@@ -1,0 +1,505 @@
+[Init] Simulation starts. unitSIF=2.66502e+06, unitSIFrate=2.81286e+19, unitTime=9.47443e-14
+[Init] loadMode=bending, LL=20000, theta=0.785398, slipLength=28284.3, r_source=150, useBoundaryCorrection=1
+[Load] Estimated nucleation threshold K0nuc=1.11801 MPa*m^0.5
+[Out] outIndex=0, time=0, Nd=0, Kapp=0, KD=0, Ktip=0, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=1, time=2e+10, Nd=0, Kapp=0.0189489, KD=0, Ktip=0.0189489, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=2, time=4e+10, Nd=0, Kapp=0.0378977, KD=0, Ktip=0.0378977, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=3, time=6e+10, Nd=0, Kapp=0.0568466, KD=0, Ktip=0.0568466, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=4, time=8e+10, Nd=0, Kapp=0.0757954, KD=0, Ktip=0.0757954, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=5, time=1e+11, Nd=0, Kapp=0.0947443, KD=0, Ktip=0.0947443, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=6, time=1.2e+11, Nd=0, Kapp=0.113693, KD=0, Ktip=0.113693, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=7, time=1.4e+11, Nd=0, Kapp=0.132642, KD=0, Ktip=0.132642, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=8, time=1.6e+11, Nd=0, Kapp=0.151591, KD=0, Ktip=0.151591, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=9, time=1.8e+11, Nd=0, Kapp=0.17054, KD=0, Ktip=0.17054, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=10, time=2e+11, Nd=0, Kapp=0.189489, KD=0, Ktip=0.189489, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=11, time=2.2e+11, Nd=0, Kapp=0.208437, KD=0, Ktip=0.208437, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=12, time=2.4e+11, Nd=0, Kapp=0.227386, KD=0, Ktip=0.227386, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=13, time=2.6e+11, Nd=0, Kapp=0.246335, KD=0, Ktip=0.246335, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=14, time=2.8e+11, Nd=0, Kapp=0.265284, KD=0, Ktip=0.265284, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=15, time=3e+11, Nd=0, Kapp=0.284233, KD=0, Ktip=0.284233, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=16, time=3.2e+11, Nd=0, Kapp=0.303182, KD=0, Ktip=0.303182, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=17, time=3.4e+11, Nd=0, Kapp=0.322131, KD=0, Ktip=0.322131, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=18, time=3.6e+11, Nd=0, Kapp=0.341079, KD=0, Ktip=0.341079, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=19, time=3.8e+11, Nd=0, Kapp=0.360028, KD=0, Ktip=0.360028, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=20, time=4e+11, Nd=0, Kapp=0.378977, KD=0, Ktip=0.378977, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=21, time=4.2e+11, Nd=0, Kapp=0.397926, KD=0, Ktip=0.397926, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=22, time=4.4e+11, Nd=0, Kapp=0.416875, KD=0, Ktip=0.416875, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=23, time=4.6e+11, Nd=0, Kapp=0.435824, KD=0, Ktip=0.435824, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=24, time=4.8e+11, Nd=0, Kapp=0.454773, KD=0, Ktip=0.454773, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=25, time=5e+11, Nd=0, Kapp=0.473721, KD=0, Ktip=0.473721, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=26, time=5.2e+11, Nd=0, Kapp=0.49267, KD=0, Ktip=0.49267, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=27, time=5.4e+11, Nd=0, Kapp=0.511619, KD=0, Ktip=0.511619, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=28, time=5.6e+11, Nd=0, Kapp=0.530568, KD=0, Ktip=0.530568, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=29, time=5.8e+11, Nd=0, Kapp=0.549517, KD=0, Ktip=0.549517, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=30, time=6e+11, Nd=0, Kapp=0.568466, KD=0, Ktip=0.568466, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=31, time=6.2e+11, Nd=0, Kapp=0.587415, KD=0, Ktip=0.587415, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=32, time=6.4e+11, Nd=0, Kapp=0.606363, KD=0, Ktip=0.606363, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=33, time=6.6e+11, Nd=0, Kapp=0.625312, KD=0, Ktip=0.625312, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=34, time=6.8e+11, Nd=0, Kapp=0.644261, KD=0, Ktip=0.644261, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=35, time=7e+11, Nd=0, Kapp=0.66321, KD=0, Ktip=0.66321, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=36, time=7.2e+11, Nd=0, Kapp=0.682159, KD=0, Ktip=0.682159, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=37, time=7.4e+11, Nd=0, Kapp=0.701108, KD=0, Ktip=0.701108, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=38, time=7.6e+11, Nd=0, Kapp=0.720057, KD=0, Ktip=0.720057, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=39, time=7.8e+11, Nd=0, Kapp=0.739005, KD=0, Ktip=0.739005, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=40, time=8e+11, Nd=0, Kapp=0.757954, KD=0, Ktip=0.757954, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=41, time=8.2e+11, Nd=0, Kapp=0.776903, KD=0, Ktip=0.776903, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=42, time=8.4e+11, Nd=0, Kapp=0.795852, KD=0, Ktip=0.795852, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=43, time=8.6e+11, Nd=0, Kapp=0.814801, KD=0, Ktip=0.814801, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=44, time=8.8e+11, Nd=0, Kapp=0.83375, KD=0, Ktip=0.83375, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=45, time=9e+11, Nd=0, Kapp=0.852699, KD=0, Ktip=0.852699, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=46, time=9.2e+11, Nd=0, Kapp=0.871647, KD=0, Ktip=0.871647, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=47, time=9.4e+11, Nd=0, Kapp=0.890596, KD=0, Ktip=0.890596, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=48, time=9.6e+11, Nd=0, Kapp=0.909545, KD=0, Ktip=0.909545, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=49, time=9.8e+11, Nd=0, Kapp=0.928494, KD=0, Ktip=0.928494, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=50, time=1e+12, Nd=0, Kapp=0.947443, KD=0, Ktip=0.947443, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=51, time=1.02e+12, Nd=0, Kapp=0.966392, KD=0, Ktip=0.966392, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=52, time=1.04e+12, Nd=0, Kapp=0.98534, KD=0, Ktip=0.98534, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=53, time=1.06e+12, Nd=0, Kapp=1.00429, KD=0, Ktip=1.00429, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=54, time=1.08e+12, Nd=0, Kapp=1.02324, KD=0, Ktip=1.02324, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=55, time=1.1e+12, Nd=0, Kapp=1.04219, KD=0, Ktip=1.04219, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=56, time=1.12e+12, Nd=0, Kapp=1.06114, KD=0, Ktip=1.06114, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=57, time=1.14e+12, Nd=0, Kapp=1.08008, KD=0, Ktip=1.08008, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=58, time=1.16e+12, Nd=0, Kapp=1.09903, KD=0, Ktip=1.09903, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=59, time=1.18e+12, Nd=0, Kapp=1.11798, KD=0, Ktip=1.11798, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=0, rss_source=0.00372671, Kapp=1.11801, Ktip(before)=1.11801, Ktip(after)=1.00121, drop=0.116798, Nd=1
+[Nuc] Nucleating dis id=1, rss_source=0.00372671, Kapp=1.12559, Ktip(before)=1.11768, Ktip(after)=1.00088, drop=0.116798, Nd=2
+[Nuc] Nucleating dis id=2, rss_source=0.00372671, Kapp=1.1329, Ktip(before)=1.11759, Ktip(after)=1.00079, drop=0.116798, Nd=3
+[Out] outIndex=60, time=1.19994e+12, Nd=3, Kapp=1.13688, KD=0.0235896, Ktip=1.11329, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=3, rss_source=0.00372671, Kapp=1.14006, Ktip(before)=1.11763, Ktip(after)=1.00084, drop=0.116798, Nd=4
+[Nuc] Nucleating dis id=4, rss_source=0.00372671, Kapp=1.14711, Ktip(before)=1.11779, Ktip(after)=1.00099, drop=0.116798, Nd=5
+[Nuc] Nucleating dis id=5, rss_source=0.00372671, Kapp=1.15407, Ktip(before)=1.11803, Ktip(after)=1.00124, drop=0.116798, Nd=6
+[Out] outIndex=61, time=1.21989e+12, Nd=6, Kapp=1.15577, KD=0.0459444, Ktip=1.10983, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=6, rss_source=0.00372671, Kapp=1.16097, Ktip(before)=1.11835, Ktip(after)=1.00156, drop=0.116798, Nd=7
+[Nuc] Nucleating dis id=7, rss_source=0.00372671, Kapp=1.16781, Ktip(before)=1.11874, Ktip(after)=1.00195, drop=0.116798, Nd=8
+[Nuc] Nucleating dis id=8, rss_source=0.00372671, Kapp=1.1746, Ktip(before)=1.11919, Ktip(after)=1.00239, drop=0.116798, Nd=9
+[Out] outIndex=62, time=1.23983e+12, Nd=9, Kapp=1.17466, KD=0.0710131, Ktip=1.10365, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=9, rss_source=0.00372671, Kapp=1.18134, Ktip(before)=1.1197, Ktip(after)=1.0029, drop=0.116798, Nd=10
+[Nuc] Nucleating dis id=10, rss_source=0.00372671, Kapp=1.18804, Ktip(before)=1.12026, Ktip(after)=1.00346, drop=0.116798, Nd=11
+[Out] outIndex=63, time=1.25979e+12, Nd=11, Kapp=1.19357, KD=0.0745695, Ktip=1.119, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=11, rss_source=0.00372671, Kapp=1.19469, Ktip(before)=1.12086, Ktip(after)=1.00406, drop=0.116798, Nd=12
+[Nuc] Nucleating dis id=12, rss_source=0.00372671, Kapp=1.20131, Ktip(before)=1.12151, Ktip(after)=1.00472, drop=0.116798, Nd=13
+[Nuc] Nucleating dis id=13, rss_source=0.00372671, Kapp=1.2079, Ktip(before)=1.12221, Ktip(after)=1.00541, drop=0.116798, Nd=14
+[Out] outIndex=64, time=1.27972e+12, Nd=14, Kapp=1.21246, KD=0.0930506, Ktip=1.11941, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=14, rss_source=0.00372671, Kapp=1.21445, Ktip(before)=1.12295, Ktip(after)=1.00615, drop=0.116798, Nd=15
+[Nuc] Nucleating dis id=15, rss_source=0.00372671, Kapp=1.22097, Ktip(before)=1.12372, Ktip(after)=1.00693, drop=0.116798, Nd=16
+[Nuc] Nucleating dis id=16, rss_source=0.00372671, Kapp=1.22746, Ktip(before)=1.12454, Ktip(after)=1.00774, drop=0.116798, Nd=17
+[Out] outIndex=65, time=1.29966e+12, Nd=17, Kapp=1.23135, KD=0.110813, Ktip=1.12054, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=17, rss_source=0.00372671, Kapp=1.23392, Ktip(before)=1.12539, Ktip(after)=1.00859, drop=0.116798, Nd=18
+[Nuc] Nucleating dis id=18, rss_source=0.00372671, Kapp=1.24035, Ktip(before)=1.12627, Ktip(after)=1.00948, drop=0.116798, Nd=19
+[Nuc] Nucleating dis id=19, rss_source=0.00372671, Kapp=1.24676, Ktip(before)=1.12719, Ktip(after)=1.0104, drop=0.116798, Nd=20
+[Out] outIndex=66, time=1.31959e+12, Nd=20, Kapp=1.25024, KD=0.127861, Ktip=1.12238, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=20, rss_source=0.00372671, Kapp=1.25314, Ktip(before)=1.12814, Ktip(after)=1.01135, drop=0.116798, Nd=21
+[Nuc] Nucleating dis id=21, rss_source=0.00372671, Kapp=1.2595, Ktip(before)=1.12912, Ktip(after)=1.01233, drop=0.116798, Nd=22
+[Nuc] Nucleating dis id=22, rss_source=0.00372671, Kapp=1.26584, Ktip(before)=1.13013, Ktip(after)=1.01334, drop=0.116798, Nd=23
+[Out] outIndex=67, time=1.33953e+12, Nd=23, Kapp=1.26912, KD=0.1442, Ktip=1.12492, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=23, rss_source=0.00372671, Kapp=1.27215, Ktip(before)=1.13117, Ktip(after)=1.01438, drop=0.116798, Nd=24
+[Nuc] Nucleating dis id=24, rss_source=0.00372671, Kapp=1.27844, Ktip(before)=1.13224, Ktip(after)=1.01544, drop=0.116798, Nd=25
+[Nuc] Nucleating dis id=25, rss_source=0.00372671, Kapp=1.28471, Ktip(before)=1.13333, Ktip(after)=1.01653, drop=0.116798, Nd=26
+[Out] outIndex=68, time=1.35946e+12, Nd=26, Kapp=1.28801, KD=0.159851, Ktip=1.12816, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=26, rss_source=0.00372671, Kapp=1.29096, Ktip(before)=1.13445, Ktip(after)=1.01765, drop=0.116798, Nd=27
+[Nuc] Nucleating dis id=27, rss_source=0.00372671, Kapp=1.29719, Ktip(before)=1.13559, Ktip(after)=1.01879, drop=0.116798, Nd=28
+[Nuc] Nucleating dis id=28, rss_source=0.00372671, Kapp=1.30341, Ktip(before)=1.13676, Ktip(after)=1.01996, drop=0.116798, Nd=29
+[Out] outIndex=69, time=1.37939e+12, Nd=29, Kapp=1.30689, KD=0.174845, Ktip=1.13205, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=29, rss_source=0.00372671, Kapp=1.3096, Ktip(before)=1.13795, Ktip(after)=1.02115, drop=0.116798, Nd=30
+[Nuc] Nucleating dis id=30, rss_source=0.00372671, Kapp=1.31577, Ktip(before)=1.13916, Ktip(after)=1.02237, drop=0.116798, Nd=31
+[Nuc] Nucleating dis id=31, rss_source=0.00372671, Kapp=1.32193, Ktip(before)=1.1404, Ktip(after)=1.0236, drop=0.116798, Nd=32
+[Out] outIndex=70, time=1.39932e+12, Nd=32, Kapp=1.32577, KD=0.189222, Ktip=1.13655, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=32, rss_source=0.00372671, Kapp=1.32807, Ktip(before)=1.14166, Ktip(after)=1.02486, drop=0.116798, Nd=33
+[Nuc] Nucleating dis id=33, rss_source=0.00372671, Kapp=1.3342, Ktip(before)=1.14294, Ktip(after)=1.02614, drop=0.116798, Nd=34
+[Nuc] Nucleating dis id=34, rss_source=0.00372671, Kapp=1.34031, Ktip(before)=1.14423, Ktip(after)=1.02743, drop=0.116798, Nd=35
+[Out] outIndex=71, time=1.41906e+12, Nd=35, Kapp=1.34448, KD=0.203259, Ktip=1.14122, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=35, rss_source=0.00372671, Kapp=1.3464, Ktip(before)=1.14555, Ktip(after)=1.02875, drop=0.116798, Nd=36
+[Nuc] Nucleating dis id=36, rss_source=0.00372671, Kapp=1.35248, Ktip(before)=1.14689, Ktip(after)=1.03009, drop=0.116798, Nd=37
+[Nuc] Nucleating dis id=37, rss_source=0.00372671, Kapp=1.35854, Ktip(before)=1.14824, Ktip(after)=1.03144, drop=0.116798, Nd=38
+[Out] outIndex=72, time=1.43792e+12, Nd=38, Kapp=1.36235, KD=0.217946, Ktip=1.1444, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=38, rss_source=0.00372671, Kapp=1.36459, Ktip(before)=1.14961, Ktip(after)=1.03281, drop=0.116798, Nd=39
+[Nuc] Nucleating dis id=39, rss_source=0.00372671, Kapp=1.37062, Ktip(before)=1.151, Ktip(after)=1.03421, drop=0.116798, Nd=40
+[Nuc] Nucleating dis id=40, rss_source=0.00372671, Kapp=1.37664, Ktip(before)=1.15241, Ktip(after)=1.03561, drop=0.116798, Nd=41
+[Out] outIndex=73, time=1.45594e+12, Nd=41, Kapp=1.37942, KD=0.233447, Ktip=1.14597, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=41, rss_source=0.00372671, Kapp=1.38265, Ktip(before)=1.15383, Ktip(after)=1.03704, drop=0.116798, Nd=42
+[Nuc] Nucleating dis id=42, rss_source=0.00372671, Kapp=1.38864, Ktip(before)=1.15527, Ktip(after)=1.03847, drop=0.116798, Nd=43
+[Nuc] Nucleating dis id=43, rss_source=0.00372671, Kapp=1.39463, Ktip(before)=1.15673, Ktip(after)=1.03993, drop=0.116798, Nd=44
+[Out] outIndex=74, time=1.47323e+12, Nd=44, Kapp=1.3958, KD=0.250114, Ktip=1.14568, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=44, rss_source=0.00372671, Kapp=1.40059, Ktip(before)=1.1582, Ktip(after)=1.0414, drop=0.116798, Nd=45
+[Nuc] Nucleating dis id=45, rss_source=0.00372671, Kapp=1.40655, Ktip(before)=1.15968, Ktip(after)=1.04289, drop=0.116798, Nd=46
+[Out] outIndex=75, time=1.4899e+12, Nd=46, Kapp=1.4116, KD=0.25255, Ktip=1.15905, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=46, rss_source=0.00372671, Kapp=1.41249, Ktip(before)=1.16119, Ktip(after)=1.04439, drop=0.116798, Nd=47
+[Nuc] Nucleating dis id=47, rss_source=0.00372671, Kapp=1.41843, Ktip(before)=1.1627, Ktip(after)=1.0459, drop=0.116798, Nd=48
+[Nuc] Nucleating dis id=48, rss_source=0.00372671, Kapp=1.42435, Ktip(before)=1.16423, Ktip(after)=1.04743, drop=0.116798, Nd=49
+[Out] outIndex=76, time=1.50599e+12, Nd=49, Kapp=1.42684, KD=0.26985, Ktip=1.15699, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=49, rss_source=0.00372671, Kapp=1.43026, Ktip(before)=1.16577, Ktip(after)=1.04897, drop=0.116798, Nd=50
+[Nuc] Nucleating dis id=50, rss_source=0.00372671, Kapp=1.43616, Ktip(before)=1.16733, Ktip(after)=1.05053, drop=0.116798, Nd=51
+[Out] outIndex=77, time=1.5216e+12, Nd=51, Kapp=1.44163, KD=0.273751, Ktip=1.16788, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=51, rss_source=0.00372671, Kapp=1.44204, Ktip(before)=1.16889, Ktip(after)=1.0521, drop=0.116798, Nd=52
+[Nuc] Nucleating dis id=52, rss_source=0.00372671, Kapp=1.44792, Ktip(before)=1.17047, Ktip(after)=1.05368, drop=0.116798, Nd=53
+[Nuc] Nucleating dis id=53, rss_source=0.00372671, Kapp=1.45379, Ktip(before)=1.17207, Ktip(after)=1.05527, drop=0.116798, Nd=54
+[Out] outIndex=78, time=1.53672e+12, Nd=54, Kapp=1.45595, KD=0.292106, Ktip=1.16385, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=54, rss_source=0.00372671, Kapp=1.45965, Ktip(before)=1.17367, Ktip(after)=1.05687, drop=0.116798, Nd=55
+[Nuc] Nucleating dis id=55, rss_source=0.00372671, Kapp=1.46549, Ktip(before)=1.17529, Ktip(after)=1.05849, drop=0.116798, Nd=56
+[Out] outIndex=79, time=1.55145e+12, Nd=56, Kapp=1.46991, KD=0.296608, Ktip=1.1733, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=56, rss_source=0.00372671, Kapp=1.47133, Ktip(before)=1.17692, Ktip(after)=1.06012, drop=0.116798, Nd=57
+[Nuc] Nucleating dis id=57, rss_source=0.00372671, Kapp=1.47716, Ktip(before)=1.17856, Ktip(after)=1.06176, drop=0.116798, Nd=58
+[Nuc] Nucleating dis id=58, rss_source=0.00372671, Kapp=1.48298, Ktip(before)=1.18021, Ktip(after)=1.06341, drop=0.116798, Nd=59
+[Out] outIndex=80, time=1.56578e+12, Nd=59, Kapp=1.48348, KD=0.317095, Ktip=1.16639, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=59, rss_source=0.00372671, Kapp=1.48879, Ktip(before)=1.18187, Ktip(after)=1.06507, drop=0.116798, Nd=60
+[Nuc] Nucleating dis id=60, rss_source=0.00372671, Kapp=1.49459, Ktip(before)=1.18354, Ktip(after)=1.06674, drop=0.116798, Nd=61
+[Out] outIndex=81, time=1.57978e+12, Nd=61, Kapp=1.49675, KD=0.321504, Ktip=1.17524, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=61, rss_source=0.00372671, Kapp=1.50038, Ktip(before)=1.18522, Ktip(after)=1.06842, drop=0.116798, Nd=62
+[Nuc] Nucleating dis id=62, rss_source=0.00372671, Kapp=1.50616, Ktip(before)=1.18691, Ktip(after)=1.07011, drop=0.116798, Nd=63
+[Out] outIndex=82, time=1.59345e+12, Nd=63, Kapp=1.5097, KD=0.32706, Ktip=1.18264, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=63, rss_source=0.00372671, Kapp=1.51194, Ktip(before)=1.18861, Ktip(after)=1.07182, drop=0.116798, Nd=64
+[Nuc] Nucleating dis id=64, rss_source=0.00372671, Kapp=1.5177, Ktip(before)=1.19032, Ktip(after)=1.07353, drop=0.116798, Nd=65
+[Out] outIndex=83, time=1.60682e+12, Nd=65, Kapp=1.52237, KD=0.333186, Ktip=1.18919, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=65, rss_source=0.00372671, Kapp=1.52346, Ktip(before)=1.19204, Ktip(after)=1.07525, drop=0.116798, Nd=66
+[Nuc] Nucleating dis id=66, rss_source=0.00372671, Kapp=1.52921, Ktip(before)=1.19378, Ktip(after)=1.07698, drop=0.116798, Nd=67
+[Out] outIndex=84, time=1.61992e+12, Nd=67, Kapp=1.53478, KD=0.339712, Ktip=1.19507, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=67, rss_source=0.00372671, Kapp=1.53495, Ktip(before)=1.19551, Ktip(after)=1.07872, drop=0.116798, Nd=68
+[Nuc] Nucleating dis id=68, rss_source=0.00372671, Kapp=1.54068, Ktip(before)=1.19726, Ktip(after)=1.08046, drop=0.116798, Nd=69
+[Nuc] Nucleating dis id=69, rss_source=0.00372671, Kapp=1.54641, Ktip(before)=1.19902, Ktip(after)=1.08222, drop=0.116798, Nd=70
+[Out] outIndex=85, time=1.63272e+12, Nd=70, Kapp=1.54691, KD=0.36203, Ktip=1.18488, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=70, rss_source=0.00372671, Kapp=1.55213, Ktip(before)=1.20078, Ktip(after)=1.08398, drop=0.116798, Nd=71
+[Nuc] Nucleating dis id=71, rss_source=0.00372671, Kapp=1.55784, Ktip(before)=1.20256, Ktip(after)=1.08576, drop=0.116798, Nd=72
+[Out] outIndex=86, time=1.6453e+12, Nd=72, Kapp=1.55883, KD=0.368573, Ktip=1.19026, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=72, rss_source=0.00372671, Kapp=1.56354, Ktip(before)=1.20434, Ktip(after)=1.08754, drop=0.116798, Nd=73
+[Nuc] Nucleating dis id=73, rss_source=0.00372671, Kapp=1.56924, Ktip(before)=1.20613, Ktip(after)=1.08933, drop=0.116798, Nd=74
+[Out] outIndex=87, time=1.65765e+12, Nd=74, Kapp=1.57053, KD=0.375677, Ktip=1.19486, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=74, rss_source=0.00372671, Kapp=1.57493, Ktip(before)=1.20792, Ktip(after)=1.09112, drop=0.116798, Nd=75
+[Nuc] Nucleating dis id=75, rss_source=0.00372671, Kapp=1.58061, Ktip(before)=1.20972, Ktip(after)=1.09293, drop=0.116798, Nd=76
+[Out] outIndex=88, time=1.66979e+12, Nd=76, Kapp=1.58203, KD=0.383179, Ktip=1.19885, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=76, rss_source=0.00372671, Kapp=1.58629, Ktip(before)=1.21154, Ktip(after)=1.09474, drop=0.116798, Nd=77
+[Nuc] Nucleating dis id=77, rss_source=0.00372671, Kapp=1.59196, Ktip(before)=1.21336, Ktip(after)=1.09656, drop=0.116798, Nd=78
+[Out] outIndex=89, time=1.68171e+12, Nd=78, Kapp=1.59333, KD=0.391036, Ktip=1.20229, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=78, rss_source=0.00372671, Kapp=1.59762, Ktip(before)=1.21518, Ktip(after)=1.09838, drop=0.116798, Nd=79
+[Nuc] Nucleating dis id=79, rss_source=0.00372671, Kapp=1.60328, Ktip(before)=1.21702, Ktip(after)=1.10022, drop=0.116798, Nd=80
+[Out] outIndex=90, time=1.69344e+12, Nd=80, Kapp=1.60444, KD=0.399247, Ktip=1.20519, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=80, rss_source=0.00372671, Kapp=1.60893, Ktip(before)=1.21886, Ktip(after)=1.10206, drop=0.116798, Nd=81
+[Nuc] Nucleating dis id=81, rss_source=0.00372671, Kapp=1.61457, Ktip(before)=1.2207, Ktip(after)=1.10391, drop=0.116798, Nd=82
+[Out] outIndex=91, time=1.70499e+12, Nd=82, Kapp=1.61538, KD=0.407854, Ktip=1.20752, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=82, rss_source=0.00372671, Kapp=1.62021, Ktip(before)=1.22256, Ktip(after)=1.10576, drop=0.116798, Nd=83
+[Nuc] Nucleating dis id=83, rss_source=0.00372671, Kapp=1.62584, Ktip(before)=1.22442, Ktip(after)=1.10762, drop=0.116798, Nd=84
+[Out] outIndex=92, time=1.71635e+12, Nd=84, Kapp=1.62615, KD=0.417069, Ktip=1.20908, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=84, rss_source=0.00372671, Kapp=1.63147, Ktip(before)=1.22628, Ktip(after)=1.10948, drop=0.116798, Nd=85
+[Out] outIndex=93, time=1.72758e+12, Nd=85, Kapp=1.63678, KD=0.409471, Ktip=1.22731, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=85, rss_source=0.00372671, Kapp=1.63708, Ktip(before)=1.22816, Ktip(after)=1.11136, drop=0.116798, Nd=86
+[Nuc] Nucleating dis id=86, rss_source=0.00372671, Kapp=1.6427, Ktip(before)=1.23003, Ktip(after)=1.11324, drop=0.116798, Nd=87
+[Out] outIndex=94, time=1.73861e+12, Nd=87, Kapp=1.64724, KD=0.418355, Ktip=1.22888, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=87, rss_source=0.00372671, Kapp=1.64831, Ktip(before)=1.23192, Ktip(after)=1.11512, drop=0.116798, Nd=88
+[Nuc] Nucleating dis id=88, rss_source=0.00372671, Kapp=1.65391, Ktip(before)=1.23381, Ktip(after)=1.11701, drop=0.116798, Nd=89
+[Out] outIndex=95, time=1.7495e+12, Nd=89, Kapp=1.65755, KD=0.42754, Ktip=1.23001, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=89, rss_source=0.00372671, Kapp=1.65951, Ktip(before)=1.23571, Ktip(after)=1.11891, drop=0.116798, Nd=90
+[Nuc] Nucleating dis id=90, rss_source=0.00372671, Kapp=1.6651, Ktip(before)=1.23761, Ktip(after)=1.12081, drop=0.116798, Nd=91
+[Out] outIndex=96, time=1.76023e+12, Nd=91, Kapp=1.66772, KD=0.437092, Ktip=1.23063, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=91, rss_source=0.00372671, Kapp=1.67068, Ktip(before)=1.23952, Ktip(after)=1.12272, drop=0.116798, Nd=92
+[Nuc] Nucleating dis id=92, rss_source=0.00372671, Kapp=1.67626, Ktip(before)=1.24143, Ktip(after)=1.12463, drop=0.116798, Nd=93
+[Out] outIndex=97, time=1.77083e+12, Nd=93, Kapp=1.67776, KD=0.447138, Ktip=1.23062, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=93, rss_source=0.00372671, Kapp=1.68184, Ktip(before)=1.24335, Ktip(after)=1.12655, drop=0.116798, Nd=94
+[Nuc] Nucleating dis id=94, rss_source=0.00372671, Kapp=1.68741, Ktip(before)=1.24527, Ktip(after)=1.12847, drop=0.116798, Nd=95
+[Out] outIndex=98, time=1.78129e+12, Nd=95, Kapp=1.68767, KD=0.458204, Ktip=1.22946, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=95, rss_source=0.00372671, Kapp=1.69297, Ktip(before)=1.2472, Ktip(after)=1.1304, drop=0.116798, Nd=96
+[Out] outIndex=99, time=1.79164e+12, Nd=96, Kapp=1.69748, KD=0.451413, Ktip=1.24607, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=96, rss_source=0.00372671, Kapp=1.69853, Ktip(before)=1.24914, Ktip(after)=1.13234, drop=0.116798, Nd=97
+[Nuc] Nucleating dis id=97, rss_source=0.00372671, Kapp=1.70409, Ktip(before)=1.25107, Ktip(after)=1.13428, drop=0.116798, Nd=98
+[Out] outIndex=100, time=1.80185e+12, Nd=98, Kapp=1.70715, KD=0.461656, Ktip=1.24549, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=98, rss_source=0.00372671, Kapp=1.70964, Ktip(before)=1.25302, Ktip(after)=1.13622, drop=0.116798, Nd=99
+[Nuc] Nucleating dis id=99, rss_source=0.00372671, Kapp=1.71519, Ktip(before)=1.25497, Ktip(after)=1.13817, drop=0.116798, Nd=100
+[Out] outIndex=101, time=1.81193e+12, Nd=100, Kapp=1.7167, KD=0.472544, Ktip=1.24416, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=100, rss_source=0.00372671, Kapp=1.72073, Ktip(before)=1.25692, Ktip(after)=1.14012, drop=0.116798, Nd=101
+[Out] outIndex=102, time=1.82193e+12, Nd=101, Kapp=1.72617, KD=0.467554, Ktip=1.25862, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=101, rss_source=0.00372671, Kapp=1.72626, Ktip(before)=1.25888, Ktip(after)=1.14208, drop=0.116798, Nd=102
+[Nuc] Nucleating dis id=102, rss_source=0.00372671, Kapp=1.73179, Ktip(before)=1.26084, Ktip(after)=1.14405, drop=0.116798, Nd=103
+[Out] outIndex=103, time=1.83178e+12, Nd=103, Kapp=1.73551, KD=0.478153, Ktip=1.25736, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=103, rss_source=0.00372671, Kapp=1.73732, Ktip(before)=1.26281, Ktip(after)=1.14601, drop=0.116798, Nd=104
+[Nuc] Nucleating dis id=104, rss_source=0.00372671, Kapp=1.74284, Ktip(before)=1.26478, Ktip(after)=1.14798, drop=0.116798, Nd=105
+[Out] outIndex=104, time=1.84153e+12, Nd=105, Kapp=1.74474, KD=0.489448, Ktip=1.2553, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=105, rss_source=0.00372671, Kapp=1.74836, Ktip(before)=1.26676, Ktip(after)=1.14996, drop=0.116798, Nd=106
+[Nuc] Nucleating dis id=106, rss_source=0.00372671, Kapp=1.75388, Ktip(before)=1.26874, Ktip(after)=1.15194, drop=0.116798, Nd=107
+[Out] outIndex=105, time=1.85117e+12, Nd=107, Kapp=1.75388, KD=0.504938, Ktip=1.24894, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=107, rss_source=0.00372671, Kapp=1.75939, Ktip(before)=1.27072, Ktip(after)=1.15393, drop=0.116798, Nd=108
+[Out] outIndex=106, time=1.86074e+12, Nd=108, Kapp=1.76295, KD=0.496171, Ktip=1.26678, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=108, rss_source=0.00372671, Kapp=1.76489, Ktip(before)=1.27271, Ktip(after)=1.15591, drop=0.116798, Nd=109
+[Nuc] Nucleating dis id=109, rss_source=0.00372671, Kapp=1.77039, Ktip(before)=1.27471, Ktip(after)=1.15791, drop=0.116798, Nd=110
+[Out] outIndex=107, time=1.87019e+12, Nd=110, Kapp=1.77189, KD=0.50815, Ktip=1.26374, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=110, rss_source=0.00372671, Kapp=1.77589, Ktip(before)=1.2767, Ktip(after)=1.15991, drop=0.116798, Nd=111
+[Out] outIndex=108, time=1.87956e+12, Nd=111, Kapp=1.78078, KD=0.50388, Ktip=1.2769, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=111, rss_source=0.00372671, Kapp=1.78138, Ktip(before)=1.2787, Ktip(after)=1.16191, drop=0.116798, Nd=112
+[Nuc] Nucleating dis id=112, rss_source=0.00372671, Kapp=1.78687, Ktip(before)=1.28071, Ktip(after)=1.16391, drop=0.116798, Nd=113
+[Out] outIndex=109, time=1.88882e+12, Nd=113, Kapp=1.78955, KD=0.515681, Ktip=1.27387, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=113, rss_source=0.00372671, Kapp=1.79236, Ktip(before)=1.28272, Ktip(after)=1.16592, drop=0.116798, Nd=114
+[Nuc] Nucleating dis id=114, rss_source=0.00372671, Kapp=1.79784, Ktip(before)=1.28473, Ktip(after)=1.16793, drop=0.116798, Nd=115
+[Out] outIndex=110, time=1.89799e+12, Nd=115, Kapp=1.79823, KD=0.528995, Ktip=1.26924, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=115, rss_source=0.00372671, Kapp=1.80331, Ktip(before)=1.28674, Ktip(after)=1.16995, drop=0.116798, Nd=116
+[Out] outIndex=111, time=1.9071e+12, Nd=116, Kapp=1.80686, KD=0.524069, Ktip=1.2828, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=116, rss_source=0.00372671, Kapp=1.80879, Ktip(before)=1.28876, Ktip(after)=1.17197, drop=0.116798, Nd=117
+[Nuc] Nucleating dis id=117, rss_source=0.00372671, Kapp=1.81426, Ktip(before)=1.29079, Ktip(after)=1.17399, drop=0.116798, Nd=118
+[Out] outIndex=112, time=1.91609e+12, Nd=118, Kapp=1.81539, KD=0.537051, Ktip=1.27834, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=118, rss_source=0.00372671, Kapp=1.81972, Ktip(before)=1.29281, Ktip(after)=1.17602, drop=0.116798, Nd=119
+[Out] outIndex=113, time=1.92504e+12, Nd=119, Kapp=1.82386, KD=0.533094, Ktip=1.29077, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=119, rss_source=0.00372671, Kapp=1.82519, Ktip(before)=1.29484, Ktip(after)=1.17805, drop=0.116798, Nd=120
+[Nuc] Nucleating dis id=120, rss_source=0.00372671, Kapp=1.83064, Ktip(before)=1.29688, Ktip(after)=1.18008, drop=0.116798, Nd=121
+[Out] outIndex=114, time=1.93387e+12, Nd=121, Kapp=1.83224, KD=0.546086, Ktip=1.28615, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=121, rss_source=0.00372671, Kapp=1.8361, Ktip(before)=1.29891, Ktip(after)=1.18211, drop=0.116798, Nd=122
+[Out] outIndex=115, time=1.94266e+12, Nd=122, Kapp=1.84056, KD=0.542654, Ktip=1.29791, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=122, rss_source=0.00372671, Kapp=1.84155, Ktip(before)=1.30095, Ktip(after)=1.18415, drop=0.116798, Nd=123
+[Nuc] Nucleating dis id=123, rss_source=0.00372671, Kapp=1.847, Ktip(before)=1.303, Ktip(after)=1.1862, drop=0.116798, Nd=124
+[Out] outIndex=116, time=1.95135e+12, Nd=124, Kapp=1.84879, KD=0.555807, Ktip=1.29298, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=124, rss_source=0.00372671, Kapp=1.85244, Ktip(before)=1.30504, Ktip(after)=1.18824, drop=0.116798, Nd=125
+[Out] outIndex=117, time=1.95998e+12, Nd=125, Kapp=1.85697, KD=0.552696, Ktip=1.30428, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=125, rss_source=0.00372671, Kapp=1.85788, Ktip(before)=1.30709, Ktip(after)=1.19029, drop=0.116798, Nd=126
+[Nuc] Nucleating dis id=126, rss_source=0.00372671, Kapp=1.86332, Ktip(before)=1.30914, Ktip(after)=1.19234, drop=0.116798, Nd=127
+[Out] outIndex=118, time=1.96852e+12, Nd=127, Kapp=1.86506, KD=0.566131, Ktip=1.29893, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=127, rss_source=0.00372671, Kapp=1.86876, Ktip(before)=1.3112, Ktip(after)=1.1944, drop=0.116798, Nd=128
+[Out] outIndex=119, time=1.97702e+12, Nd=128, Kapp=1.87312, KD=0.563198, Ktip=1.30992, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=128, rss_source=0.00372671, Kapp=1.87419, Ktip(before)=1.31326, Ktip(after)=1.19646, drop=0.116798, Nd=129
+[Nuc] Nucleating dis id=129, rss_source=0.00372671, Kapp=1.87961, Ktip(before)=1.31532, Ktip(after)=1.19852, drop=0.116798, Nd=130
+[Out] outIndex=120, time=1.98543e+12, Nd=130, Kapp=1.88108, KD=0.577052, Ktip=1.30402, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=130, rss_source=0.00372671, Kapp=1.88504, Ktip(before)=1.31738, Ktip(after)=1.20058, drop=0.116798, Nd=131
+[Out] outIndex=121, time=1.99379e+12, Nd=131, Kapp=1.889, KD=0.574164, Ktip=1.31484, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=131, rss_source=0.00372671, Kapp=1.89046, Ktip(before)=1.31945, Ktip(after)=1.20265, drop=0.116798, Nd=132
+[Nuc] Nucleating dis id=132, rss_source=0.00372671, Kapp=1.89588, Ktip(before)=1.32152, Ktip(after)=1.20472, drop=0.116798, Nd=133
+[Out] outIndex=122, time=2.00206e+12, Nd=133, Kapp=1.89684, KD=0.588633, Ktip=1.30821, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=133, rss_source=0.00372671, Kapp=1.9013, Ktip(before)=1.32359, Ktip(after)=1.20679, drop=0.116798, Nd=134
+[Out] outIndex=123, time=2.0103e+12, Nd=134, Kapp=1.90464, KD=0.585622, Ktip=1.31902, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=134, rss_source=0.00372671, Kapp=1.90671, Ktip(before)=1.32566, Ktip(after)=1.20887, drop=0.116798, Nd=135
+[Nuc] Nucleating dis id=135, rss_source=0.00372671, Kapp=1.91212, Ktip(before)=1.32774, Ktip(after)=1.21095, drop=0.116798, Nd=136
+[Out] outIndex=124, time=2.01845e+12, Nd=136, Kapp=1.91236, KD=0.601194, Ktip=1.31117, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=136, rss_source=0.00372671, Kapp=1.91752, Ktip(before)=1.32982, Ktip(after)=1.21303, drop=0.116798, Nd=137
+[Out] outIndex=125, time=2.02656e+12, Nd=137, Kapp=1.92005, KD=0.597634, Ktip=1.32242, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=137, rss_source=0.00372671, Kapp=1.92293, Ktip(before)=1.33191, Ktip(after)=1.21511, drop=0.116798, Nd=138
+[Out] outIndex=126, time=2.03462e+12, Nd=138, Kapp=1.92768, KD=0.595711, Ktip=1.33197, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=138, rss_source=0.00372671, Kapp=1.92833, Ktip(before)=1.33399, Ktip(after)=1.21719, drop=0.116798, Nd=139
+[Nuc] Nucleating dis id=139, rss_source=0.00372671, Kapp=1.93372, Ktip(before)=1.33608, Ktip(after)=1.21928, drop=0.116798, Nd=140
+[Out] outIndex=127, time=2.04259e+12, Nd=140, Kapp=1.93524, KD=0.610337, Ktip=1.3249, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=140, rss_source=0.00372671, Kapp=1.93912, Ktip(before)=1.33817, Ktip(after)=1.22137, drop=0.116798, Nd=141
+[Out] outIndex=128, time=2.05053e+12, Nd=141, Kapp=1.94276, KD=0.608151, Ktip=1.33461, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=141, rss_source=0.00372671, Kapp=1.94451, Ktip(before)=1.34026, Ktip(after)=1.22346, drop=0.116798, Nd=142
+[Nuc] Nucleating dis id=142, rss_source=0.00372671, Kapp=1.9499, Ktip(before)=1.34236, Ktip(after)=1.22556, drop=0.116798, Nd=143
+[Out] outIndex=129, time=2.05839e+12, Nd=143, Kapp=1.95021, KD=0.624194, Ktip=1.32601, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=143, rss_source=0.00372671, Kapp=1.95529, Ktip(before)=1.34445, Ktip(after)=1.22766, drop=0.116798, Nd=144
+[Out] outIndex=130, time=2.06623e+12, Nd=144, Kapp=1.95763, KD=0.621262, Ktip=1.33637, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=144, rss_source=0.00372671, Kapp=1.96067, Ktip(before)=1.34655, Ktip(after)=1.22976, drop=0.116798, Nd=145
+[Out] outIndex=131, time=2.07401e+12, Nd=145, Kapp=1.965, KD=0.619701, Ktip=1.3453, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=145, rss_source=0.00372671, Kapp=1.96605, Ktip(before)=1.34866, Ktip(after)=1.23186, drop=0.116798, Nd=146
+[Nuc] Nucleating dis id=146, rss_source=0.00372671, Kapp=1.97143, Ktip(before)=1.35076, Ktip(after)=1.23396, drop=0.116798, Nd=147
+[Out] outIndex=132, time=2.08171e+12, Nd=147, Kapp=1.9723, KD=0.635373, Ktip=1.33693, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=147, rss_source=0.00372671, Kapp=1.9768, Ktip(before)=1.35287, Ktip(after)=1.23607, drop=0.116798, Nd=148
+[Out] outIndex=133, time=2.08939e+12, Nd=148, Kapp=1.97957, KD=0.633271, Ktip=1.3463, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=148, rss_source=0.00372671, Kapp=1.98218, Ktip(before)=1.35498, Ktip(after)=1.23818, drop=0.116798, Nd=149
+[Out] outIndex=134, time=2.09702e+12, Nd=149, Kapp=1.9868, KD=0.632099, Ktip=1.3547, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=149, rss_source=0.00372671, Kapp=1.98755, Ktip(before)=1.35709, Ktip(after)=1.24029, drop=0.116798, Nd=150
+[Nuc] Nucleating dis id=150, rss_source=0.00372671, Kapp=1.99292, Ktip(before)=1.3592, Ktip(after)=1.2424, drop=0.116798, Nd=151
+[Out] outIndex=135, time=2.10457e+12, Nd=151, Kapp=1.99396, KD=0.64791, Ktip=1.34605, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=151, rss_source=0.00372671, Kapp=1.99828, Ktip(before)=1.36131, Ktip(after)=1.24452, drop=0.116798, Nd=152
+[Out] outIndex=136, time=2.1121e+12, Nd=152, Kapp=2.0011, KD=0.64619, Ktip=1.35491, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=152, rss_source=0.00372671, Kapp=2.00364, Ktip(before)=1.36343, Ktip(after)=1.24663, drop=0.116798, Nd=153
+[Out] outIndex=137, time=2.11959e+12, Nd=153, Kapp=2.00819, KD=0.645265, Ktip=1.36292, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=153, rss_source=0.00372671, Kapp=2.009, Ktip(before)=1.36555, Ktip(after)=1.24875, drop=0.116798, Nd=154
+[Nuc] Nucleating dis id=154, rss_source=0.00372671, Kapp=2.01436, Ktip(before)=1.36767, Ktip(after)=1.25087, drop=0.116798, Nd=155
+[Out] outIndex=138, time=2.127e+12, Nd=155, Kapp=2.01521, KD=0.661547, Ktip=1.35367, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=155, rss_source=0.00372671, Kapp=2.01972, Ktip(before)=1.36979, Ktip(after)=1.253, drop=0.116798, Nd=156
+[Out] outIndex=139, time=2.1344e+12, Nd=156, Kapp=2.02222, KD=0.659973, Ktip=1.36225, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=156, rss_source=0.00372671, Kapp=2.02507, Ktip(before)=1.37192, Ktip(after)=1.25512, drop=0.116798, Nd=157
+[Out] outIndex=140, time=2.14175e+12, Nd=157, Kapp=2.02918, KD=0.659183, Ktip=1.37, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=157, rss_source=0.00372671, Kapp=2.03042, Ktip(before)=1.37404, Ktip(after)=1.25725, drop=0.116798, Nd=158
+[Nuc] Nucleating dis id=158, rss_source=0.00372671, Kapp=2.03577, Ktip(before)=1.37617, Ktip(after)=1.25938, drop=0.116798, Nd=159
+[Out] outIndex=141, time=2.14903e+12, Nd=159, Kapp=2.03608, KD=0.676444, Ktip=1.35964, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=159, rss_source=0.00372671, Kapp=2.04112, Ktip(before)=1.3783, Ktip(after)=1.26151, drop=0.116798, Nd=160
+[Out] outIndex=142, time=2.15629e+12, Nd=160, Kapp=2.04297, KD=0.674669, Ktip=1.3683, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=160, rss_source=0.00372671, Kapp=2.04646, Ktip(before)=1.38044, Ktip(after)=1.26364, drop=0.116798, Nd=161
+[Out] outIndex=143, time=2.16352e+12, Nd=161, Kapp=2.04981, KD=0.673897, Ktip=1.37591, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=161, rss_source=0.00372671, Kapp=2.0518, Ktip(before)=1.38257, Ktip(after)=1.26577, drop=0.116798, Nd=162
+[Out] outIndex=144, time=2.1707e+12, Nd=162, Kapp=2.05661, KD=0.673617, Ktip=1.383, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=162, rss_source=0.00372671, Kapp=2.05714, Ktip(before)=1.38471, Ktip(after)=1.26791, drop=0.116798, Nd=163
+[Nuc] Nucleating dis id=163, rss_source=0.00372671, Kapp=2.06248, Ktip(before)=1.38684, Ktip(after)=1.27005, drop=0.116798, Nd=164
+[Out] outIndex=145, time=2.17782e+12, Nd=164, Kapp=2.06336, KD=0.690493, Ktip=1.37286, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=164, rss_source=0.00372671, Kapp=2.06781, Ktip(before)=1.38898, Ktip(after)=1.27218, drop=0.116798, Nd=165
+[Out] outIndex=146, time=2.18492e+12, Nd=165, Kapp=2.07008, KD=0.68953, Ktip=1.38055, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=165, rss_source=0.00372671, Kapp=2.07315, Ktip(before)=1.39112, Ktip(after)=1.27433, drop=0.116798, Nd=166
+[Out] outIndex=147, time=2.19198e+12, Nd=166, Kapp=2.07678, KD=0.68919, Ktip=1.38759, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=166, rss_source=0.00372671, Kapp=2.07848, Ktip(before)=1.39327, Ktip(after)=1.27647, drop=0.116798, Nd=167
+[Out] outIndex=148, time=2.19901e+12, Nd=167, Kapp=2.08343, KD=0.689237, Ktip=1.3942, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=167, rss_source=0.00372671, Kapp=2.08381, Ktip(before)=1.39541, Ktip(after)=1.27861, drop=0.116798, Nd=168
+[Nuc] Nucleating dis id=168, rss_source=0.00372671, Kapp=2.08913, Ktip(before)=1.39756, Ktip(after)=1.28076, drop=0.116798, Nd=169
+[Out] outIndex=149, time=2.20597e+12, Nd=169, Kapp=2.09003, KD=0.706423, Ktip=1.3836, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=169, rss_source=0.00372671, Kapp=2.09446, Ktip(before)=1.3997, Ktip(after)=1.28291, drop=0.116798, Nd=170
+[Out] outIndex=150, time=2.21292e+12, Nd=170, Kapp=2.09661, KD=0.705793, Ktip=1.39082, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=170, rss_source=0.00372671, Kapp=2.09978, Ktip(before)=1.40185, Ktip(after)=1.28505, drop=0.116798, Nd=171
+[Out] outIndex=151, time=2.21983e+12, Nd=171, Kapp=2.10316, KD=0.705705, Ktip=1.39746, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=171, rss_source=0.00372671, Kapp=2.1051, Ktip(before)=1.404, Ktip(after)=1.2872, drop=0.116798, Nd=172
+[Out] outIndex=152, time=2.22671e+12, Nd=172, Kapp=2.10968, KD=0.705961, Ktip=1.40372, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=172, rss_source=0.00372671, Kapp=2.11042, Ktip(before)=1.40615, Ktip(after)=1.28936, drop=0.116798, Nd=173
+[Nuc] Nucleating dis id=173, rss_source=0.00372671, Kapp=2.11573, Ktip(before)=1.40831, Ktip(after)=1.29151, drop=0.116798, Nd=174
+[Out] outIndex=153, time=2.23352e+12, Nd=174, Kapp=2.11613, KD=0.72409, Ktip=1.39204, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=174, rss_source=0.00372671, Kapp=2.12105, Ktip(before)=1.41046, Ktip(after)=1.29367, drop=0.116798, Nd=175
+[Out] outIndex=154, time=2.24033e+12, Nd=175, Kapp=2.12258, KD=0.723448, Ktip=1.39914, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=175, rss_source=0.00372671, Kapp=2.12636, Ktip(before)=1.41262, Ktip(after)=1.29582, drop=0.116798, Nd=176
+[Out] outIndex=155, time=2.2471e+12, Nd=176, Kapp=2.129, KD=0.723459, Ktip=1.40554, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=176, rss_source=0.00372671, Kapp=2.13167, Ktip(before)=1.41478, Ktip(after)=1.29798, drop=0.116798, Nd=177
+[Out] outIndex=156, time=2.25384e+12, Nd=177, Kapp=2.13539, KD=0.723824, Ktip=1.41156, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=177, rss_source=0.00372671, Kapp=2.13698, Ktip(before)=1.41694, Ktip(after)=1.30014, drop=0.116798, Nd=178
+[Out] outIndex=157, time=2.26055e+12, Nd=178, Kapp=2.14174, KD=0.724446, Ktip=1.4173, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=178, rss_source=0.00372671, Kapp=2.14229, Ktip(before)=1.4191, Ktip(after)=1.3023, drop=0.116798, Nd=179
+[Nuc] Nucleating dis id=179, rss_source=0.00372671, Kapp=2.14759, Ktip(before)=1.42126, Ktip(after)=1.30446, drop=0.116798, Nd=180
+[Out] outIndex=158, time=2.2672e+12, Nd=180, Kapp=2.14804, KD=0.742879, Ktip=1.40516, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=180, rss_source=0.00372671, Kapp=2.15289, Ktip(before)=1.42342, Ktip(after)=1.30663, drop=0.116798, Nd=181
+[Out] outIndex=159, time=2.27384e+12, Nd=181, Kapp=2.15433, KD=0.742676, Ktip=1.41165, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=181, rss_source=0.00372671, Kapp=2.1582, Ktip(before)=1.42559, Ktip(after)=1.30879, drop=0.116798, Nd=182
+[Out] outIndex=160, time=2.28045e+12, Nd=182, Kapp=2.16059, KD=0.743006, Ktip=1.41759, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=182, rss_source=0.00372671, Kapp=2.1635, Ktip(before)=1.42775, Ktip(after)=1.31096, drop=0.116798, Nd=183
+[Out] outIndex=161, time=2.28703e+12, Nd=183, Kapp=2.16683, KD=0.74364, Ktip=1.42319, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=183, rss_source=0.00372671, Kapp=2.16879, Ktip(before)=1.42992, Ktip(after)=1.31312, drop=0.116798, Nd=184
+[Out] outIndex=162, time=2.29357e+12, Nd=184, Kapp=2.17303, KD=0.744497, Ktip=1.42853, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=184, rss_source=0.00372671, Kapp=2.17409, Ktip(before)=1.43209, Ktip(after)=1.31529, drop=0.116798, Nd=185
+[Out] outIndex=163, time=2.30009e+12, Nd=185, Kapp=2.1792, KD=0.745533, Ktip=1.43367, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=185, rss_source=0.00372671, Kapp=2.17938, Ktip(before)=1.43426, Ktip(after)=1.31746, drop=0.116798, Nd=186
+[Nuc] Nucleating dis id=186, rss_source=0.00372671, Kapp=2.18467, Ktip(before)=1.43643, Ktip(after)=1.31963, drop=0.116798, Nd=187
+[Out] outIndex=164, time=2.30655e+12, Nd=187, Kapp=2.18532, KD=0.764101, Ktip=1.42122, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=187, rss_source=0.00372671, Kapp=2.18996, Ktip(before)=1.4386, Ktip(after)=1.32181, drop=0.116798, Nd=188
+[Out] outIndex=165, time=2.31301e+12, Nd=188, Kapp=2.19144, KD=0.764481, Ktip=1.42696, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=188, rss_source=0.00372671, Kapp=2.19525, Ktip(before)=1.44078, Ktip(after)=1.32398, drop=0.116798, Nd=189
+[Out] outIndex=166, time=2.31943e+12, Nd=189, Kapp=2.19753, KD=0.765226, Ktip=1.43231, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=189, rss_source=0.00372671, Kapp=2.20054, Ktip(before)=1.44295, Ktip(after)=1.32615, drop=0.116798, Nd=190
+[Out] outIndex=167, time=2.32583e+12, Nd=190, Kapp=2.2036, KD=0.766207, Ktip=1.43739, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=190, rss_source=0.00372671, Kapp=2.20583, Ktip(before)=1.44513, Ktip(after)=1.32833, drop=0.116798, Nd=191
+[Out] outIndex=168, time=2.33221e+12, Nd=191, Kapp=2.20963, KD=0.767369, Ktip=1.44226, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=191, rss_source=0.00372671, Kapp=2.21111, Ktip(before)=1.44731, Ktip(after)=1.33051, drop=0.116798, Nd=192
+[Out] outIndex=169, time=2.33855e+12, Nd=192, Kapp=2.21564, KD=0.768679, Ktip=1.44696, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=192, rss_source=0.00372671, Kapp=2.21639, Ktip(before)=1.44948, Ktip(after)=1.33269, drop=0.116798, Nd=193
+[Out] outIndex=170, time=2.34487e+12, Nd=193, Kapp=2.22163, KD=0.770114, Ktip=1.45151, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=193, rss_source=0.00372671, Kapp=2.22167, Ktip(before)=1.45166, Ktip(after)=1.33487, drop=0.116798, Nd=194
+[Nuc] Nucleating dis id=194, rss_source=0.00372671, Kapp=2.22695, Ktip(before)=1.45384, Ktip(after)=1.33705, drop=0.116798, Nd=195
+[Out] outIndex=171, time=2.35113e+12, Nd=195, Kapp=2.22756, KD=0.789191, Ktip=1.43837, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=195, rss_source=0.00372671, Kapp=2.23223, Ktip(before)=1.45603, Ktip(after)=1.33923, drop=0.116798, Nd=196
+[Out] outIndex=172, time=2.35739e+12, Nd=196, Kapp=2.23349, KD=0.790049, Ktip=1.44344, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=196, rss_source=0.00372671, Kapp=2.2375, Ktip(before)=1.45821, Ktip(after)=1.34141, drop=0.116798, Nd=197
+[Out] outIndex=173, time=2.36362e+12, Nd=197, Kapp=2.2394, KD=0.791192, Ktip=1.4482, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=197, rss_source=0.00372671, Kapp=2.24278, Ktip(before)=1.46039, Ktip(after)=1.3436, drop=0.116798, Nd=198
+[Out] outIndex=174, time=2.36983e+12, Nd=198, Kapp=2.24528, KD=0.792524, Ktip=1.45275, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=198, rss_source=0.00372671, Kapp=2.24805, Ktip(before)=1.46258, Ktip(after)=1.34578, drop=0.116798, Nd=199
+[Out] outIndex=175, time=2.37601e+12, Nd=199, Kapp=2.25114, KD=0.794005, Ktip=1.45713, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=199, rss_source=0.00372671, Kapp=2.25332, Ktip(before)=1.46476, Ktip(after)=1.34797, drop=0.116798, Nd=200
+[Out] outIndex=176, time=2.38217e+12, Nd=200, Kapp=2.25697, KD=0.795608, Ktip=1.46136, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=200, rss_source=0.00372671, Kapp=2.25859, Ktip(before)=1.46695, Ktip(after)=1.35015, drop=0.116798, Nd=201
+[Out] outIndex=177, time=2.3883e+12, Nd=201, Kapp=2.26278, KD=0.797317, Ktip=1.46546, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=201, rss_source=0.00372671, Kapp=2.26386, Ktip(before)=1.46914, Ktip(after)=1.35234, drop=0.116798, Nd=202
+[Out] outIndex=178, time=2.39441e+12, Nd=202, Kapp=2.26857, KD=0.799119, Ktip=1.46945, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=202, rss_source=0.00372671, Kapp=2.26912, Ktip(before)=1.47133, Ktip(after)=1.35453, drop=0.116798, Nd=203
+[Out] outIndex=179, time=2.40049e+12, Nd=203, Kapp=2.27433, KD=0.801005, Ktip=1.47333, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=203, rss_source=0.00372671, Kapp=2.27439, Ktip(before)=1.47352, Ktip(after)=1.35672, drop=0.116798, Nd=204
+[Nuc] Nucleating dis id=204, rss_source=0.00372671, Kapp=2.27965, Ktip(before)=1.47571, Ktip(after)=1.35891, drop=0.116798, Nd=205
+[Out] outIndex=180, time=2.40652e+12, Nd=205, Kapp=2.28004, KD=0.820944, Ktip=1.4591, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=205, rss_source=0.00372671, Kapp=2.28491, Ktip(before)=1.4779, Ktip(after)=1.3611, drop=0.116798, Nd=206
+[Out] outIndex=181, time=2.41256e+12, Nd=206, Kapp=2.28576, KD=0.82232, Ktip=1.46344, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=206, rss_source=0.00372671, Kapp=2.29017, Ktip(before)=1.4801, Ktip(after)=1.3633, drop=0.116798, Nd=207
+[Out] outIndex=182, time=2.41857e+12, Nd=207, Kapp=2.29146, KD=0.82393, Ktip=1.46753, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=207, rss_source=0.00372671, Kapp=2.29543, Ktip(before)=1.48229, Ktip(after)=1.36549, drop=0.116798, Nd=208
+[Out] outIndex=183, time=2.42456e+12, Nd=208, Kapp=2.29713, KD=0.825691, Ktip=1.47144, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=208, rss_source=0.00372671, Kapp=2.30069, Ktip(before)=1.48448, Ktip(after)=1.36769, drop=0.116798, Nd=209
+[Out] outIndex=184, time=2.43052e+12, Nd=209, Kapp=2.30278, KD=0.82757, Ktip=1.47521, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=209, rss_source=0.00372671, Kapp=2.30595, Ktip(before)=1.48668, Ktip(after)=1.36988, drop=0.116798, Nd=210
+[Out] outIndex=185, time=2.43646e+12, Nd=210, Kapp=2.30841, KD=0.829548, Ktip=1.47886, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=210, rss_source=0.00372671, Kapp=2.3112, Ktip(before)=1.48888, Ktip(after)=1.37208, drop=0.116798, Nd=211
+[Out] outIndex=186, time=2.44238e+12, Nd=211, Kapp=2.31402, KD=0.831613, Ktip=1.4824, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=211, rss_source=0.00372671, Kapp=2.31645, Ktip(before)=1.49107, Ktip(after)=1.37428, drop=0.116798, Nd=212
+[Out] outIndex=187, time=2.44828e+12, Nd=212, Kapp=2.3196, KD=0.833756, Ktip=1.48585, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=212, rss_source=0.00372671, Kapp=2.32171, Ktip(before)=1.49327, Ktip(after)=1.37648, drop=0.116798, Nd=213
+[Out] outIndex=188, time=2.45415e+12, Nd=213, Kapp=2.32517, KD=0.835968, Ktip=1.4892, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=213, rss_source=0.00372671, Kapp=2.32696, Ktip(before)=1.49547, Ktip(after)=1.37867, drop=0.116798, Nd=214
+[Out] outIndex=189, time=2.46e+12, Nd=214, Kapp=2.33071, KD=0.838246, Ktip=1.49247, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=214, rss_source=0.00372671, Kapp=2.33221, Ktip(before)=1.49767, Ktip(after)=1.38088, drop=0.116798, Nd=215
+[Out] outIndex=190, time=2.46583e+12, Nd=215, Kapp=2.33624, KD=0.840583, Ktip=1.49565, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=215, rss_source=0.00372671, Kapp=2.33745, Ktip(before)=1.49987, Ktip(after)=1.38308, drop=0.116798, Nd=216
+[Out] outIndex=191, time=2.47164e+12, Nd=216, Kapp=2.34174, KD=0.842977, Ktip=1.49876, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=216, rss_source=0.00372671, Kapp=2.3427, Ktip(before)=1.50208, Ktip(after)=1.38528, drop=0.116798, Nd=217
+[Out] outIndex=192, time=2.47743e+12, Nd=217, Kapp=2.34722, KD=0.845424, Ktip=1.5018, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=217, rss_source=0.00372671, Kapp=2.34795, Ktip(before)=1.50428, Ktip(after)=1.38748, drop=0.116798, Nd=218
+[Out] outIndex=193, time=2.4832e+12, Nd=218, Kapp=2.35269, KD=0.847921, Ktip=1.50477, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=218, rss_source=0.00372671, Kapp=2.35319, Ktip(before)=1.50648, Ktip(after)=1.38968, drop=0.116798, Nd=219
+[Out] outIndex=194, time=2.48895e+12, Nd=219, Kapp=2.35813, KD=0.850466, Ktip=1.50767, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=219, rss_source=0.00372671, Kapp=2.35843, Ktip(before)=1.50869, Ktip(after)=1.39189, drop=0.116798, Nd=220
+[Out] outIndex=195, time=2.49467e+12, Nd=220, Kapp=2.36356, KD=0.853058, Ktip=1.5105, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=220, rss_source=0.00372671, Kapp=2.36367, Ktip(before)=1.51089, Ktip(after)=1.39409, drop=0.116798, Nd=221
+[Nuc] Nucleating dis id=221, rss_source=0.00372671, Kapp=2.36891, Ktip(before)=1.5131, Ktip(after)=1.3963, drop=0.116798, Nd=222
+[Out] outIndex=196, time=2.50035e+12, Nd=222, Kapp=2.36894, KD=0.875045, Ktip=1.49389, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=222, rss_source=0.00372671, Kapp=2.37415, Ktip(before)=1.5153, Ktip(after)=1.39851, drop=0.116798, Nd=223
+[Out] outIndex=197, time=2.50604e+12, Nd=223, Kapp=2.37433, KD=0.87699, Ktip=1.49734, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=223, rss_source=0.00372671, Kapp=2.37939, Ktip(before)=1.51751, Ktip(after)=1.40071, drop=0.116798, Nd=224
+[Out] outIndex=198, time=2.5117e+12, Nd=224, Kapp=2.37969, KD=0.879421, Ktip=1.50027, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=224, rss_source=0.00372671, Kapp=2.38463, Ktip(before)=1.51972, Ktip(after)=1.40292, drop=0.116798, Nd=225
+[Out] outIndex=199, time=2.51735e+12, Nd=225, Kapp=2.38504, KD=0.881981, Ktip=1.50306, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=225, rss_source=0.00372671, Kapp=2.38986, Ktip(before)=1.52193, Ktip(after)=1.40513, drop=0.116798, Nd=226
+[Out] outIndex=200, time=2.52298e+12, Nd=226, Kapp=2.39038, KD=0.88463, Ktip=1.50575, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=226, rss_source=0.00372671, Kapp=2.3951, Ktip(before)=1.52414, Ktip(after)=1.40734, drop=0.116798, Nd=227
+[Out] outIndex=201, time=2.52858e+12, Nd=227, Kapp=2.39569, KD=0.887355, Ktip=1.50833, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=227, rss_source=0.00372671, Kapp=2.40033, Ktip(before)=1.52635, Ktip(after)=1.40955, drop=0.116798, Nd=228
+[Out] outIndex=202, time=2.53417e+12, Nd=228, Kapp=2.40098, KD=0.890147, Ktip=1.51084, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=228, rss_source=0.00372671, Kapp=2.40556, Ktip(before)=1.52856, Ktip(after)=1.41176, drop=0.116798, Nd=229
+[Out] outIndex=203, time=2.53974e+12, Nd=229, Kapp=2.40626, KD=0.893003, Ktip=1.51326, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=229, rss_source=0.00372671, Kapp=2.41079, Ktip(before)=1.53077, Ktip(after)=1.41398, drop=0.116798, Nd=230
+[Out] outIndex=204, time=2.5453e+12, Nd=230, Kapp=2.41152, KD=0.895919, Ktip=1.5156, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=230, rss_source=0.00372671, Kapp=2.41602, Ktip(before)=1.53299, Ktip(after)=1.41619, drop=0.116798, Nd=231
+[Out] outIndex=205, time=2.55083e+12, Nd=231, Kapp=2.41676, KD=0.898893, Ktip=1.51787, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=231, rss_source=0.00372671, Kapp=2.42125, Ktip(before)=1.5352, Ktip(after)=1.4184, drop=0.116798, Nd=232
+[Out] outIndex=206, time=2.55634e+12, Nd=232, Kapp=2.42199, KD=0.901925, Ktip=1.52006, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=232, rss_source=0.00372671, Kapp=2.42647, Ktip(before)=1.53741, Ktip(after)=1.42062, drop=0.116798, Nd=233
+[Out] outIndex=207, time=2.56184e+12, Nd=233, Kapp=2.4272, KD=0.905013, Ktip=1.52218, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=233, rss_source=0.00372671, Kapp=2.4317, Ktip(before)=1.53963, Ktip(after)=1.42283, drop=0.116798, Nd=234
+[Out] outIndex=208, time=2.56732e+12, Nd=234, Kapp=2.43239, KD=0.908159, Ktip=1.52423, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=234, rss_source=0.00372671, Kapp=2.43692, Ktip(before)=1.54184, Ktip(after)=1.42505, drop=0.116798, Nd=235
+[Out] outIndex=209, time=2.57278e+12, Nd=235, Kapp=2.43756, KD=0.911364, Ktip=1.5262, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=235, rss_source=0.00372671, Kapp=2.44215, Ktip(before)=1.54406, Ktip(after)=1.42726, drop=0.116798, Nd=236
+[Out] outIndex=210, time=2.57823e+12, Nd=236, Kapp=2.44272, KD=0.914629, Ktip=1.52809, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=236, rss_source=0.00372671, Kapp=2.44737, Ktip(before)=1.54628, Ktip(after)=1.42948, drop=0.116798, Nd=237
+[Out] outIndex=211, time=2.58365e+12, Nd=237, Kapp=2.44786, KD=0.917959, Ktip=1.5299, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=237, rss_source=0.00372671, Kapp=2.45259, Ktip(before)=1.54849, Ktip(after)=1.4317, drop=0.116798, Nd=238
+[Out] outIndex=212, time=2.58906e+12, Nd=238, Kapp=2.45299, KD=0.92136, Ktip=1.53163, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=238, rss_source=0.00372671, Kapp=2.45781, Ktip(before)=1.55071, Ktip(after)=1.43391, drop=0.116798, Nd=239
+[Out] outIndex=213, time=2.59446e+12, Nd=239, Kapp=2.4581, KD=0.924847, Ktip=1.53325, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=239, rss_source=0.00372671, Kapp=2.46303, Ktip(before)=1.55293, Ktip(after)=1.43613, drop=0.116798, Nd=240
+[Out] outIndex=214, time=2.59983e+12, Nd=240, Kapp=2.46319, KD=0.928454, Ktip=1.53474, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=240, rss_source=0.00372671, Kapp=2.46825, Ktip(before)=1.55515, Ktip(after)=1.43835, drop=0.116798, Nd=241
+[Out] outIndex=215, time=2.60519e+12, Nd=241, Kapp=2.46827, KD=0.932558, Ktip=1.53571, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=216, time=2.61056e+12, Nd=241, Kapp=2.47336, KD=0.916365, Ktip=1.55699, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=241, rss_source=0.00372671, Kapp=2.47347, Ktip(before)=1.55737, Ktip(after)=1.44057, drop=0.116798, Nd=242
+[Out] outIndex=217, time=2.61589e+12, Nd=242, Kapp=2.4784, KD=0.919781, Ktip=1.55862, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=242, rss_source=0.00372671, Kapp=2.47868, Ktip(before)=1.55959, Ktip(after)=1.44279, drop=0.116798, Nd=243
+[Out] outIndex=218, time=2.6212e+12, Nd=243, Kapp=2.48343, KD=0.923236, Ktip=1.5602, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=243, rss_source=0.00372671, Kapp=2.4839, Ktip(before)=1.56181, Ktip(after)=1.44501, drop=0.116798, Nd=244
+[Out] outIndex=219, time=2.62649e+12, Nd=244, Kapp=2.48845, KD=0.926731, Ktip=1.56172, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=244, rss_source=0.00372671, Kapp=2.48911, Ktip(before)=1.56403, Ktip(after)=1.44723, drop=0.116798, Nd=245
+[Out] outIndex=220, time=2.63177e+12, Nd=245, Kapp=2.49345, KD=0.930268, Ktip=1.56318, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=245, rss_source=0.00372671, Kapp=2.49432, Ktip(before)=1.56625, Ktip(after)=1.44946, drop=0.116798, Nd=246
+[Out] outIndex=221, time=2.63703e+12, Nd=246, Kapp=2.49844, KD=0.933847, Ktip=1.56459, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=246, rss_source=0.00372671, Kapp=2.49953, Ktip(before)=1.56848, Ktip(after)=1.45168, drop=0.116798, Nd=247
+[Out] outIndex=222, time=2.64228e+12, Nd=247, Kapp=2.50341, KD=0.937471, Ktip=1.56593, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=247, rss_source=0.00372671, Kapp=2.50475, Ktip(before)=1.5707, Ktip(after)=1.4539, drop=0.116798, Nd=248
+[Out] outIndex=223, time=2.64751e+12, Nd=248, Kapp=2.50836, KD=0.941142, Ktip=1.56722, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=248, rss_source=0.00372671, Kapp=2.50996, Ktip(before)=1.57292, Ktip(after)=1.45613, drop=0.116798, Nd=249
+[Out] outIndex=224, time=2.65272e+12, Nd=249, Kapp=2.5133, KD=0.944861, Ktip=1.56844, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=249, rss_source=0.00372671, Kapp=2.51516, Ktip(before)=1.57515, Ktip(after)=1.45835, drop=0.116798, Nd=250
+[Out] outIndex=225, time=2.65792e+12, Nd=250, Kapp=2.51823, KD=0.948633, Ktip=1.5696, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=250, rss_source=0.00372671, Kapp=2.52037, Ktip(before)=1.57737, Ktip(after)=1.46058, drop=0.116798, Nd=251
+[Out] outIndex=226, time=2.66311e+12, Nd=251, Kapp=2.52314, KD=0.95246, Ktip=1.57068, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=251, rss_source=0.00372671, Kapp=2.52558, Ktip(before)=1.5796, Ktip(after)=1.4628, drop=0.116798, Nd=252
+[Out] outIndex=227, time=2.66828e+12, Nd=252, Kapp=2.52804, KD=0.956346, Ktip=1.5717, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=252, rss_source=0.00372671, Kapp=2.53078, Ktip(before)=1.58182, Ktip(after)=1.46503, drop=0.116798, Nd=253
+[Out] outIndex=228, time=2.67344e+12, Nd=253, Kapp=2.53293, KD=0.960296, Ktip=1.57263, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=253, rss_source=0.00372671, Kapp=2.53599, Ktip(before)=1.58405, Ktip(after)=1.46725, drop=0.116798, Nd=254
+[Out] outIndex=229, time=2.67858e+12, Nd=254, Kapp=2.5378, KD=0.964319, Ktip=1.57348, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=254, rss_source=0.00372671, Kapp=2.54119, Ktip(before)=1.58628, Ktip(after)=1.46948, drop=0.116798, Nd=255
+[Out] outIndex=230, time=2.6837e+12, Nd=255, Kapp=2.54265, KD=0.968424, Ktip=1.57423, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=255, rss_source=0.00372671, Kapp=2.5464, Ktip(before)=1.58851, Ktip(after)=1.47171, drop=0.116798, Nd=256
+[Out] outIndex=231, time=2.68881e+12, Nd=256, Kapp=2.5475, KD=0.972625, Ktip=1.57487, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=256, rss_source=0.00372671, Kapp=2.5516, Ktip(before)=1.59073, Ktip(after)=1.47394, drop=0.116798, Nd=257
+[Out] outIndex=232, time=2.69391e+12, Nd=257, Kapp=2.55233, KD=0.97695, Ktip=1.57538, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=257, rss_source=0.00372671, Kapp=2.5568, Ktip(before)=1.59296, Ktip(after)=1.47616, drop=0.116798, Nd=258
+[Out] outIndex=233, time=2.69899e+12, Nd=258, Kapp=2.55714, KD=0.981465, Ktip=1.57568, slipOutStep=0, slipOutTotal=0
+[Out] outIndex=234, time=2.70409e+12, Nd=258, Kapp=2.56197, KD=0.96687, Ktip=1.5951, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=258, rss_source=0.00372671, Kapp=2.562, Ktip(before)=1.59519, Ktip(after)=1.47839, drop=0.116798, Nd=259
+[Out] outIndex=235, time=2.70915e+12, Nd=259, Kapp=2.56676, KD=0.970871, Ktip=1.59589, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=259, rss_source=0.00372671, Kapp=2.5672, Ktip(before)=1.59742, Ktip(after)=1.48062, drop=0.116798, Nd=260
+[Out] outIndex=236, time=2.71419e+12, Nd=260, Kapp=2.57154, KD=0.974929, Ktip=1.59661, slipOutStep=0, slipOutTotal=0
+[Nuc] Nucleating dis id=260, rss_source=0.00372671, Kapp=2.5724, Ktip(before)=1.59965, Ktip(after)=1.48285, drop=0.116798, Nd=261
+[Out] outIndex=237, time=2.71922e+12, Nd=261, Kapp=2.5763, KD=0.979048, Ktip=1.59725, slipOutStep=0, slipOutTotal=0
+[Stop] Ktip reached KG. stop at kInc=4743168, time=2.72002e+12, Ktip=1.6, KG=1.6, slipOutTotal=0
+[Stop] Final Nd=261, Kapp=2.57706, Ktip=1.6, emittedTotal=261, slipOutTotal=0
+[Stop] Wall time=605.366 s

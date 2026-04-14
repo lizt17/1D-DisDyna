@@ -28,7 +28,7 @@ crack_tip=0.0;
 theta=0.7853981633974483;
 r_source=150;
 r_absorbTip=5;
-LL=2000;
+LL=20000;
 crackLength=8000;
 
 # ---------------- runtime -----------------
