@@ -1,4 +1,4 @@
-# Makefile for dislocation_dynamics_refactored.cpp
+# Makefile for dislocation_dynamics.cpp
 # include path: ../../include
 #
 # Usage:
@@ -8,7 +8,7 @@
 
 CXX      ?= g++
 TARGET   := dd_sim
-SRC      := dislocation_dynamics_refactored.cpp
+SRC      := dislocation_dynamics.cpp
 OBJ      := $(SRC:.cpp=.o)
 INCDIR   := ../../include
 
