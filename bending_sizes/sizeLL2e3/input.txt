@@ -1,0 +1,75 @@
+# ============================================================== 
+# input.txt for dislocation_dynamics_iter3.cpp
+# format: Field=Value;
+# ============================================================== 
+
+# ---------------- material ----------------
+mu_SI=1.61e11;
+b_SI=2.74e-10;
+rho_SI=19250;
+nu=0.28;
+tau_nuc_SI=600e6;
+tau_friction_SI=0.0;
+KG_SI=1.6e6;
+Ke_SI=0.0e5;
+T=300;
+
+# ---------------- loading -----------------
+# 0 = tension, 1 = bending
+loadMode=1;
+KappDot_SI=1.0e7;
+Kapp0_SI=0.0;
+useTstress=0;
+bending_faw=2.0;
+bending_scale=1.0;
+
+# ---------------- geometry ----------------
+crack_tip=0.0;
+theta=0.7853981633974483;
+r_source=150;
+r_absorbTip=5;
+LL=2000;
+crackLength=8000;
+
+# ---------------- runtime -----------------
+Nsteps=1e7;
+outputNum=500;
+# if >0, use this directly; otherwise use Nsteps/outputNum
+outputIntervalOverride=0;
+shearWaveFraction=1.0e-4;
+maxNumDis=1000;
+dxMax=100;
+
+# -------- boundary correction -------------
+useBoundaryCorrection=1;
+# f(xi)=bc0+bc1*xi+bc2*xi^2+bc3*xi^3+bc4*xi^4
+# xi = r / slipLength
+bc0=1.0;
+bc1=-1.5054175;
+bc2=-3.4861723;
+bc3=6.7860202;
+bc4=-2.7944304;
+
+# -------------- output control ------------
+writeMainCsv=1;
+writeDisConfig=1;
+writeSimInfo=1;
+writePeakCsv=1;
+writeEventRows=1;
+writeFinalRow=1;
+consoleEnable=1;
+consoleColor=1;
+
+# module switches: 0 off, 1 on
+module_INIT=1;
+module_LOAD=1;
+module_NUC=1;
+module_MOVE=0;
+module_OUT=1;
+module_STOP=1;
+
+# console print cadence
+printEveryStep=0;
+printMoveEvery=0;
+printOutEvery=1;
+flushEveryOut=20;
