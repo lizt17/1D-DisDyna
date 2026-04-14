@@ -35,7 +35,7 @@
 using Clock = std::chrono::high_resolution_clock;
 
 /*=============================================================================*/
-/*  dislocation_dynamics_iter3.cpp                                             */
+/*  dislocation_dynamics.cpp                                             */
 /*-----------------------------------------------------------------------------*/
 /*  Main physical idea                                                         */
 /*  1) External loading is prescribed by                                       */
@@ -117,13 +117,13 @@ const char* moduleName(OutputModule mod)
 {
     switch (mod)
     {
-        case MOD_INIT: return "INIT";
-        case MOD_LOAD: return "LOAD";
-        case MOD_NUC:  return "NUC";
-        case MOD_MOVE: return "MOVE";
-        case MOD_OUT:  return "OUT";
-        case MOD_STOP: return "STOP";
-        default:       return "GEN";
+        case MOD_INIT: return "Init";
+        case MOD_LOAD: return "Load";
+        case MOD_NUC:  return "Nuc";
+        case MOD_MOVE: return "Move";
+        case MOD_OUT:  return "Out";
+        case MOD_STOP: return "Stop";
+        default:       return "Gen";
     }
 }
 
@@ -155,19 +155,18 @@ struct InputConfig
     double T;
 
     /* loading */
-    int    loadMode;     // 0 tension, 1 bending
+    int    loadMode;     // 0 for tension, 1 for bending
     double KappDot_SI;
     double Kapp0_SI;
     int    useTstress;
     double bending_faw;
-    double bending_scale;
 
     /* geometry */
     double crack_tip;
     double theta;
     double r_source;
     double r_absorbTip;
-    double LL;
+    double LL;          // length of ligament
     double crackLength;
 
     /* runtime */
@@ -338,7 +337,6 @@ InputConfig readInputConfig(const std::string& inputFile)
     cfg.Kapp0_SI          = getParamOrDefault(params, "Kapp0_SI", 0.0);
     cfg.useTstress        = static_cast<int>(getParamOrDefault(params, "useTstress", 0.0));
     cfg.bending_faw       = getParamOrDefault(params, "bending_faw", 2.0);
-    cfg.bending_scale     = getParamOrDefault(params, "bending_scale", 1.0);
 
     cfg.crack_tip         = getParamOrDefault(params, "crack_tip", 0.0);
     cfg.theta             = getParamOrDefault(params, "theta", M_PI / 4.0);
@@ -409,12 +407,12 @@ double schmidFactor(double theta)
 }
 
 double tau_interaction(double ri, double rj, const InputConfig& cfg)
-{
+{// Use the infinite-domain solution as an approximation
     return mu(cfg) * b(cfg) / (2.0 * M_PI * (1.0 - cfg.nu)) / (ri - rj);
 }
 
 double tau_image(double r, const InputConfig& cfg)
-{
+{// Theoretical solution
     return mu(cfg) * b(cfg) / (4.0 * M_PI * (1.0 - cfg.nu)) / (r - cfg.crack_tip);
 }
 
@@ -430,9 +428,10 @@ double tau_Tstress(double Kapp, const InputConfig& cfg)
 }
 
 double tau_bending(double Kapp, double r, const InputConfig& cfg)
-{
+{// W = 2*LL
+    double schmidF = 1.0 / std::sqrt(6.0);
     double maxS11 = 6.0 * Kapp * 2.0 * std::sqrt(2.0) / std::sqrt(cfg.LL) / cfg.bending_faw;
-    return cfg.bending_scale * (maxS11 / std::sqrt(6.0)) * (1.0 - 2.0 * r / slipLength(cfg));
+    return (maxS11 * schmidF ) * (1.0 - 2.0 * r / slipLength(cfg));
 }
 
 double boundary_correction(double r, const InputConfig& cfg)
@@ -447,8 +446,10 @@ double boundary_correction(double r, const InputConfig& cfg)
 double KD_single(double r, const InputConfig& cfg)
 {
     if (r <= cfg.crack_tip) return 0.0;
-    double pref = 3.0 * (std::sin(cfg.theta) * std::cos(cfg.theta / 2.0));
-    return mu(cfg) * b(cfg) / std::sqrt(2.0 * M_PI * r) * pref;
+    // Dislocation shielding of a cohesive crack, https://doi.org/10.1016/j.jmps.2010.01.008
+    // Edge Dislocations Emitted along Inclined Planes from a Mode I Crack, https://doi.org/10.1016/0025-5416(88)90410-7
+    double pref = 3.0 / 2.0 * (std::sin(cfg.theta) * std::cos(cfg.theta / 2.0));
+    return mu(cfg) * b(cfg) / std::sqrt(2.0 * M_PI * r) * pref / (1.0 - cfg.nu);
 }
 
 double compute_KD(const std::vector<std::shared_ptr<Dislocation> >& disArr,
@@ -514,12 +515,14 @@ EvalState evaluateSystem(const std::vector<std::shared_ptr<Dislocation> >& disAr
     st.currV.assign(Nd, 0.0);
     st.athermal.assign(Nd, false);
 
+    // Calculate the current back stress
     for (int i = 0; i < Nd; ++i)
     {
         st.currP[i] = disArr[i]->getPosition();
         st.back_stress += tau_interaction(cfg.r_source, st.currP[i], cfg);
     }
 
+    // Calculate the current stress on the source
     st.rss_source = tau_external_total(st.Ktip, st.Kapp, cfg.r_source, cfg)
                   + st.back_stress
                   - tau_image(cfg.r_source, cfg);
@@ -530,6 +533,7 @@ EvalState evaluateSystem(const std::vector<std::shared_ptr<Dislocation> >& disAr
         return st;
     }
 
+    // Calculate the minimum distance between dislocations
     for (int i = 0; i < Nd - 1; ++i)
     {
         st.dxMin = std::min(st.dxMin, 0.5 * (st.currP[i] - st.currP[i + 1]));
@@ -552,6 +556,7 @@ EvalState evaluateSystem(const std::vector<std::shared_ptr<Dislocation> >& disAr
     {
         // st.tau_app[i] = tau_external_total(st.Ktip, st.Kapp, st.currP[i], cfg);
         st.tau_app[i] = tau_bending(st.Kapp, st.currP[i], cfg); // for bending load
+        // st.tau_app[i] += tau_external_total(st.Ktip, st.Kapp, st.currP[i], cfg);    // Add crack-tip stress
         st.tau_im[i]  = tau_image(st.currP[i], cfg);
         st.rss[i]     = st.tau_app[i] + st.tau_int[i] - st.tau_im[i];
 
@@ -660,7 +665,7 @@ AdvanceStats advanceDislocations(std::vector<std::shared_ptr<Dislocation> >& dis
         disArr.erase(disArr.begin() + toRemove[i]);
     }
 
-    sortDislocationsDescending(disArr);
+    // sortDislocationsDescending(disArr);
 
     if (logger.isModuleOn(MOD_MOVE) && cfg.printMoveEvery > 0 && (kInc % cfg.printMoveEvery == 0))
     {
@@ -867,7 +872,7 @@ int main()
     {
         double Kapp = Kapp0(cfg) + KappDot(cfg) * time;
 
-        sortDislocationsDescending(disArr);
+        // sortDislocationsDescending(disArr);
         EvalState st = evaluateSystem(disArr, mobilityLaw, cfg, Kapp);
         Nd = static_cast<int>(disArr.size());
 
@@ -900,7 +905,7 @@ int main()
             Dislocation nucleatedDis = {nextDisID, cfg.r_source + b(cfg), 0.0};
             nextDisID++;
             disArr.push_back(std::make_shared<Dislocation>(nucleatedDis));
-            sortDislocationsDescending(disArr);
+            // sortDislocationsDescending(disArr);
             Nd = static_cast<int>(disArr.size());
 
             EvalState stAfterNuc = evaluateSystem(disArr, mobilityLaw, cfg, Kapp);
@@ -975,7 +980,7 @@ int main()
                     << ", KD=" << stEnd.KD * unitSIF(cfg) / 1e6
                     << ", Ktip=" << stEnd.Ktip * unitSIF(cfg) / 1e6
                     << ", slipOutStep=" << adv.removeAtBoundary
-                    << ", slipOutTotal=" << removedBoundaryTotal;
+                    << ", slipOutTotal=" << removedBoundaryTotal + removedTipTotal;
                 logger.print(MOD_OUT, msg.str());
             }
 
